@@ -1,25 +1,24 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
+		"name": "Coffee House",
+		"replaces": "Windmill",
+		"uniqueTo": "Austria-Hungary",
 		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"happiness": 4,
+		"culture": 4,
+		"science": 2,
+		"maintenance": 2,
+		"requiredTech": "Economics",
+		"uniques": ["+2 production"] 
 	},
 	{
-		"name": "Breeders",
+		"name": "Thermal Bath",
 		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
+		"uniqueTo": "Austria-Hungary",
 		"cost": 80,
-		"hurryCostModifier": 160,
 		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"culture": 1,
+		"uniques": ["+1 happiness"],
 		"requiredTech": "Engineering"
 	}
 ]
